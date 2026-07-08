@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 5000;
 const app=express();
 
 app.get('/', (req, res) => {
-    res.send('AWS Deployment Learning Process on EC2 Instance by changing the code and pushing it to GitHub and then pulling it from EC2 Instance');
+    res.send('AWS Deployment Learning Implement CI/CD pipeline with GitHub Actions and AWS Elastic Beanstalk');
 });
 app.get('/about', (req, res) => {
-    res.send('About Page of the AWS Learning Process and changes made in the code and pushed to GitHub and then pulled from EC2 Instance');
+    res.send('About Page of the AWS Deployment Learning ci/cd');
 });
 
 app.listen(PORT, () => {
